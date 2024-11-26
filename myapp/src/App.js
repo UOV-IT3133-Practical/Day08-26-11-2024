@@ -7,6 +7,11 @@ function App() {
   return (
     <div>
       <Router>
+        <ul>
+          <li><Link to="/home">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
+        </ul>
         <Routes>
           <Route path='/home' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
